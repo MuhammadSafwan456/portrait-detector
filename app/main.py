@@ -2,7 +2,7 @@
 from fastapi import FastAPI
 
 # Local Imports
-from app.apis.v1.router import api_router
+from app.api.v1.router import api_router
 
 app = FastAPI()
 
