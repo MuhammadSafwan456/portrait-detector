@@ -4,8 +4,8 @@ import numpy as np
 from fastapi import APIRouter, File, HTTPException, UploadFile
 
 # Local Imports
-from app.api.v1 import responses
-from app.api.v1.utils import extract_portrait
+from api.v1 import responses
+from api.v1.utils import extract_portrait
 
 router = APIRouter()
 
