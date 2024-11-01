@@ -2,7 +2,7 @@
 from fastapi import APIRouter
 
 # Local Imports
-from api.v1.endpoints import portrait
+from app.api.v1.endpoints import portrait
 
 api_router = APIRouter()
 
